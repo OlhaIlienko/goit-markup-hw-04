@@ -164,11 +164,21 @@ body {
 /*MAIN*/
 
 .section-hero {
+    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4))
+        url(../images/order-background-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: #C4C4C4;
-    background-image: url(../images/);
 }
 
 .hero-title {
