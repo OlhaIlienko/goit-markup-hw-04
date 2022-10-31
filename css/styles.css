@@ -239,6 +239,21 @@ body {
     flex-basis: calc((100% - 90px) / 4);
 }
 
+.features-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+}
+
+.feature-icon {
+    width: 70px;
+    height: 70px;
+}
+
 .features-list-title {
     margin-bottom: 10px;
     font-weight: 700;
@@ -272,7 +287,8 @@ body {
 }
 
 .activities-section-title,
-.team-section-title {
+.team-section-title,
+.clients-section-title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -322,6 +338,24 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--another-text-color);
+}
+
+.clients-list {
+    display: flex;
+    gap: 30px;
+}
+
+.client-item-link {
+    display: block;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.client-link-icon {
+    width: 106px;
+    height: 60px;
 }
 
 /*FOOTER*/
