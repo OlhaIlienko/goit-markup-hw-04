@@ -333,6 +333,7 @@ body {
 }
 
 .team-member-position {
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
@@ -340,7 +341,7 @@ body {
     color: var(--another-text-color);
 }
 
-.social-links-list {
+.social-links-list {    
     display: flex;
     justify-content: center;
     margin-right: 30px;
@@ -348,8 +349,18 @@ body {
     gap: 10px;
 }
 
+.social-links-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .social-link {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
 }
 
 .social-link-icon {
@@ -363,9 +374,9 @@ body {
 }
 
 .client-item-link {
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: block;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -375,6 +386,10 @@ body {
 .client-link-icon {
     width: 106px;
     height: 60px;
+}
+
+.client2-icon {
+    fill: #afb1b8;
 }
 
 /*FOOTER*/
