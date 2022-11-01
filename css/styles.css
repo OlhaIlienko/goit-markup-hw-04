@@ -161,6 +161,22 @@ body {
     color: var(--another-text-color); 
 }
 
+.contacts-list-item {
+    display: flex;
+}
+
+.envelope-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.smartphone-icon {
+    width: 10px;
+    height: 12px;
+    margin-right: 10px;
+}
+
 /*MAIN*/
 
 .section-hero {
@@ -170,11 +186,7 @@ body {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4))
-        url(../images/order-background-img.jpg);
+    background-image: url(../images/order-background-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -400,6 +412,11 @@ body {
     background-color: var(--main-bgr-color);
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
 .logo-footer {
     display: block;
     margin-bottom: 20px;
@@ -408,6 +425,10 @@ body {
 
 .logo-web {
     color: var(--accent-color);
+}
+
+.footer-adress {
+    width: 231px;
 }
 
 .footer-contacts-item:not(:last-child) {
@@ -427,6 +448,15 @@ body {
 .link-mail,
 .link-tel {
     color: var(--contacts-link-color);
+}
+
+.invitation {
+    color: var(--main-white-color);
+    margin-bottom: 20px;
+}
+
+.footer-social-links {
+    margin-left: 70px;
 }
 
 /*PORTFOLIO*/
