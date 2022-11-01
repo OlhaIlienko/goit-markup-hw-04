@@ -340,12 +340,31 @@ body {
     color: var(--another-text-color);
 }
 
+.social-links-list {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 32px;
+    gap: 10px;
+}
+
+.social-link {
+    display: block;
+}
+
+.social-link-icon {
+    width: 20px;
+    height: 20px;
+}
+
 .clients-list {
     display: flex;
     gap: 30px;
 }
 
 .client-item-link {
+    align-items: center;
+    justify-content: center;
     display: block;
     width: 170px;
     height: 92px;
