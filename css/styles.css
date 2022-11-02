@@ -400,8 +400,8 @@ body {
     height: 60px;
 }
 
-.client2-icon {
-    fill: #afb1b8;
+.client-item-link:hover {
+    fill: #2196F3
 }
 
 /*FOOTER*/
@@ -451,12 +451,23 @@ body {
 }
 
 .invitation {
-    color: var(--main-white-color);
     margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-align: left;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: var(--main-white-color);
+
 }
 
 .footer-social-links {
     margin-left: 70px;
+}
+
+.footer-list-links {
+    justify-content: space-between;
 }
 
 /*PORTFOLIO*/
