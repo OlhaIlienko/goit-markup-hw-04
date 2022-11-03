@@ -172,14 +172,16 @@ body {
     margin-right: 10px;
 }
 
-.header-tel:focus {
+.header-contacts-link:hover {
     color: var(--accent-color);
-    fill: currentColor;
 }
 
-.header-tel:hover {
+.header-contacts-link:hover svg {
+    fill: var(--accent-color);
+}
+
+.header-contacts-link:focus {
     color: var(--accent-color);
-    fill: currentColor;
 }
 
 /*MAIN*/
@@ -191,10 +193,13 @@ body {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    background-image: linear-gradient(to right,
-            rgba(47, 48, 58, 0.4)
-            rgba(47, 48, 58, 0.4))
-        url(../images/order-background-img.jpg);
+}
+
+.overlay {
+    height: 600px;
+    outline: 5px tomato;
+    background-image:
+    url(../images/order-background-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -545,7 +550,6 @@ body {
     gap: var(--ul-items-gap);
 }
 
-
 .project-card {
     flex-basis: calc((100% - 60px) / 3);
 }
@@ -572,4 +576,8 @@ body {
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
     color: var(--another-text-color);
+}
+
+.project-link:hover {
+    box-shadow: rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.12);
 }
