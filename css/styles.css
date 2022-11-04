@@ -578,6 +578,3 @@ body {
     color: var(--another-text-color);
 }
 
-.project-link:hover {
-    box-shadow: rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.12);
-}
