@@ -498,8 +498,10 @@ body {
     margin-left: 70px;
 }
 
-.footer-list-links {
+.social-links-list {
+    display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .footer-socials-link {
