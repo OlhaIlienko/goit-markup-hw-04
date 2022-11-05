@@ -392,8 +392,13 @@ body {
 
 .social-link:hover,
 .social-link:focus {
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     border-radius: 50%;
+}
+
+.team-social-link:hover svg,
+.team-social-link:focus svg {
+    fill: var(--main-white-color);
 }
 
 .social-link-icon {
@@ -419,6 +424,16 @@ body {
 .client-link-icon {
     width: 106px;
     height: 60px;
+}
+
+.client-item-link:hover svg,
+.client-item-link:focus svg {
+    fill: var(--accent-color);
+}
+
+.client-item-link:hover,
+.client-item-link:focus {
+    border: 1px solid var(--accent-color);
 }
 
 /*FOOTER*/
@@ -490,6 +505,10 @@ body {
 .footer-socials-link {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+}
+
+.footer-socials-link svg {
+    fill: var(--main-white-color);
 }
 
 /*PORTFOLIO*/
