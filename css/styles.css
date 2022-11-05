@@ -10,6 +10,7 @@
     --main-bgr-color: #2F303A;
     --bgr-second-color: #F5F5F5;
     --contacts-link-color: rgba(255, 255, 255, 0.6);
+    --main-icon-color: #AFB1B8;
     --active-btn-bgr: #188CE8;
     --ul-items-gap: 30px;
 }
@@ -74,6 +75,10 @@ body {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.icon {
+    fill: var(--main-icon-color);
 }
 
 
@@ -158,12 +163,14 @@ body {
     width: 16px;
     height: 12px;
     margin-right: 10px;
+    fill: #757575;
 }
 
 .smartphone-icon {
     width: 10px;
     height: 12px;
     margin-right: 10px;
+    fill: #757575;
 }
 
 .header-contacts-link:hover {
@@ -176,6 +183,10 @@ body {
 
 .header-contacts-link:focus {
     color: var(--accent-color);
+}
+
+.header-contacts-link:focus svg {
+    fill: var(--accent-color);
 }
 
 /*MAIN*/
@@ -388,7 +399,6 @@ body {
 .social-link-icon {
     width: 20px;
     height: 20px;
-    fill: #FFFFFF;
 }
 
 .clients-list {
@@ -409,10 +419,6 @@ body {
 .client-link-icon {
     width: 106px;
     height: 60px;
-}
-
-.client-item-link:hover .svg {
-    fill: #2196F3;
 }
 
 /*FOOTER*/
