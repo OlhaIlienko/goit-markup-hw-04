@@ -381,7 +381,6 @@ body {
 
 .social-link:hover,
 .social-link:focus {
-    fill: #FFFFFF;
     background-color: #2196F3;
     border-radius: 50%;
 }
@@ -389,6 +388,7 @@ body {
 .social-link-icon {
     width: 20px;
     height: 20px;
+    fill: #FFFFFF;
 }
 
 .clients-list {
@@ -411,8 +411,8 @@ body {
     height: 60px;
 }
 
-.client-item-link:hover {
-    fill: #2196F3
+.client-item-link:hover .svg {
+    fill: #2196F3;
 }
 
 /*FOOTER*/
