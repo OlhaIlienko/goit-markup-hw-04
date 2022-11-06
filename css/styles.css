@@ -504,6 +504,11 @@ body {
     gap: 10px;
 }
 
+.footer-links-list {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .footer-socials-link {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
